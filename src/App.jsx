@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Navbar setCategory={setCategory}/>
-      <Newsboard category={category}  />
+      <Newsboard  category={category}  />
     </div>
   );
 }
