@@ -14,9 +14,6 @@ export default function Navbar({setCategory}) {
           <div className="nav-link" onClick={()=> setCategory("technology")} style={{cursor:"pointer"}}>Technology</div>
         </li>
         <li className="nav-item">
-          <div className="nav-link" onClick={()=> setCategory("business")} style={{cursor:"pointer"}}>Business</div>
-        </li>
-        <li className="nav-item">
           <div className="nav-link" onClick={()=> setCategory("entertainment")} style={{cursor:"pointer"}} > Entertainment</div>
         </li>
         <li className="nav-item">
